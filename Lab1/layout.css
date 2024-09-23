@@ -8,16 +8,33 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header, nav ,article,div,footer{
+header{
     padding: 10px;
-    background-color: yellow;
-    border: 1px solid gray;
+    background-color: #778da9;
+    border: 1px solid #415a77;
+    text-align: center;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+    padding: 10px;
+    background-color: #778da9;
+    border: 1px solid #415a77;
+    text-align: center;
+}
+
+nav ,article,div{
+    padding: 10px;
+    background-color: #778da9;
     text-align: center;
 }
 
 header ,footer{
     width: 100%;
     clear: both;
+    background-color: #415a77 ;
+    color: white;
 }
 
 nav{
