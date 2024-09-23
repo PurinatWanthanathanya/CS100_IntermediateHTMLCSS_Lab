@@ -15,3 +15,25 @@ header, nav ,article,div,footer{
     text-align: center;
 }
 
+header ,footer{
+    width: 100%;
+    clear: both;
+}
+
+nav{
+    width: 20%;
+    height: 200px;
+    float: left ;
+}
+
+div{
+    width: 20%;
+    height: 200px ;
+    float: left;
+}
+
+article{
+    width: 60%;
+    height: 200px;
+    float: left;
+}
