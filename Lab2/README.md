@@ -46,6 +46,19 @@ nav ul li {
   - Adjust the `display` property so that it displays list items vertically
   - Adjust the margin so that it looks appropriate (more spacing between list items).
 ```css
+nav {
+    background-color: #ffa41b;
+    padding-top: 25px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 100vh;
+}
+
+nav ul li {
+    display: block;
+    margin: 15px 0;
+}
 ```
 
 - Modify the CSS `nav` style:
