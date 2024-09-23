@@ -63,6 +63,9 @@ This file contains the structure we will style using CSS.
 - Add the following styles to your CSS file under the previous code:
     - Set font family to Arial for better readability.
 ```css
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 ```
 
 ---
@@ -73,6 +76,12 @@ This file contains the structure we will style using CSS.
     - Add borders as gray color solid lines to separate each section.
     - Center the text in each section.
 ```css
+header, nav ,article,div,footer{
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid gray;
+    text-align: center;
+}
 ```
 
 ---
